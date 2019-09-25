@@ -12,4 +12,4 @@ class Solution:
     if j-i+1 > l:
       l=j-i+1
     return l
-#68s,97.7%
+#68ms,97.7%
