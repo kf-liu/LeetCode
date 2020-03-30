@@ -2,7 +2,7 @@
 For Leetcode website
   
   
-## Here are some that impressed me
+## Here are something that impressed me
 ### 2_addTwoNumbers
 `Linked list`
 ```
