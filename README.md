@@ -21,9 +21,11 @@ for j in range(1,len(s)):            #j traverses
     i+=s[i:j].index(s[j])+1          #i jumps according to the condition above
 ```
 ### 5_longestPalindrome_最长回文子串
-`中央扩散Central diffusion`(takes too much time) `动态规划Dynamic planning`（similar to my code, but not the same） and `Manacher`（extremely similar to KMP）
+`中央扩散Central diffusion`(takes too much time)   
+`动态规划Dynamic planning`（similar to my code, but not the same） and   
+`Manacher`（extremely similar to KMP）
 
 ### 7_reverse_整数反转
-new record： 0ms,100% && 6MB,100%（第三次提交）
-第一次提交：错误；忽略了整数溢出的问题。
+new record： 0ms,100% && 6MB,100%（第三次提交）  
+第一次提交：错误；忽略了整数溢出的问题。  
 第二次提交：4ms6MB-->0ms6MB；解决的问题在于c++很多语法记忆不清晰，从php搬过来的时候保留了取绝对值abs()分正负讨论，实际上c++的/和%都是不影响符号的。
